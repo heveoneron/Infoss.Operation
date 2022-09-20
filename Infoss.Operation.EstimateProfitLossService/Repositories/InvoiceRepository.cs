@@ -132,7 +132,7 @@ namespace Infoss.Operation.EstimateProfitLossService.Repositories
                 results.errors = ex.Message;
                 results.message = ResponseMessageDetailEPL(0, false, "Get", "Failed");
                 return results;
-                //testing main cores
+                //testing main coressa
             }
         }
         public async Task<Response<EstimateProfitLossRequestDetailGrid>> Create(EstimateProfitLossRequestDetailGrid estimateProfitLossDetailGrid)
